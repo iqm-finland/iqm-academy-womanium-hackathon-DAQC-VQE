@@ -12,11 +12,11 @@ This task is to develop a new VQE ansatz based on the digital-analog quantum com
 
 An important task in Quantum Chemistry is to find the ground state energy of the system in question. This ground state energy actually corresponds to the minimal eigenvalue of the Hamiltonian of the system. The Variational Quantum Eigensolver algorithm (VQE) is one way to estimate this minimal eigenvalue that can actually be executed on a NISQ device.
 However, in the NISQ era the noise introduced by gates is a problem. Digital-Analog Quantum Computing (DAQC) allows us to reduce the number of gates needed to perform quantum algorithms. It combines digital single qubit gates with analog multi-qubit blocks.
-VQE is one of the algorithms, where DAQC has the potential to be “more hardware efficient” and thus alalow for better ground state energy estimation than purely digital quantum computing in the NISQ era.
+VQE is one of the algorithms, where DAQC has the potential to be “more hardware efficient” and thus allow for better ground state energy estimation than purely digital quantum computing in the NISQ era.
 
 ## Technical description
 
-The VQE estimates the minimal eigenvalue λ*min of a given (Hermitian) matrix $H$ by giving an upper boundary $\lambda_\Theta$ with $\lambda_{min} \leq \lambda_{\Theta}$. The corresponding eigenstate is noted as $\ket{ψ_{min}}$.
+The VQE estimates the minimal eigenvalue $λ_{min}$ of a given (Hermitian) matrix $H$ by giving an upper boundary $\lambda_\Theta$ with $\lambda_{min} \leq \lambda_{\Theta}$. The corresponding eigenstate is noted as $\ket{ψ_{min}}$.
 
 In order to find a good upper boundary, VQE uses a parametrized circuit U with parameters $θ=(p_1,p_2,…)$ (referred to as $U(θ)$). The idea is that the algorithm learns the best parameters to prepare the eigenstate $\ket{ψ(θ)}$ that belongs to the upper bound $λ_θ$. For this an ansatz is chosen. Ansätze (plural for ansatz) describe how sequences of gates are applied to qubits.
 
