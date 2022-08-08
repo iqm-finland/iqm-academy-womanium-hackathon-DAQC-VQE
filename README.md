@@ -57,7 +57,7 @@ The project is judged according to the following metrics:
 
 ## Jupyter Notebooks
 We prepared/curated two notebooks that will help you grasp the concepts involved in this challenge description.
-The first is an implementation of the Variational Quantum Eigensolver. In this notebook, we will use Qiskit to apply VQE to estimate the ground energy of the H^2 molecule.
+The first is an implementation of the Variational Quantum Eigensolver. In this notebook, we will use Qiskit to apply VQE to estimate the ground energy of the $H^2$ molecule.
 
 [IQM-challenge-variational-quantum-eigensolver.pynb](https://github.com/iqm-finland/iqm-academy-womanium-hackathon-DAQC-VQE/blob/main/IQM-challenge-variational-quantum-eigensolver.ipynb)
 
