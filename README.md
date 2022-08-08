@@ -39,12 +39,12 @@ For quantum chemistry, you can now do the following:
 
 Normally, VQE uses digital quantum gates. However, the multi-qubit gates involved in a VQE ansatz can be switched to analog multi-qubit blocks.  
 
-The challenge is to combine both approaches and create a VQE implementation that uses analog multi-qubit blocks. This is a promising approach to utilize DAQC.
+The challenge is to combine both approaches and create a VQE implementation that uses analog multi-qubit blocks. This is a promising approach to utilize DAQC. Your first challenge is to develop a circuit ansatz and choose a parametrization for it.
 
 Start trying with a nearest-neighbors Ising Hamiltonian on a one-dimensional device (where all N qubits are lined up in a string like so: x—x—x—x):
 
-![Formula](assets/formula0.png)
 
+  ![Formula](assets/formula0.png)
 
 After this, your new version should be compared to a solely digital approach (one that uses just normal gates). Then you can really spice things up and see how things change. We have some recommendations below.
 
@@ -69,7 +69,7 @@ The second notebook will show you how to build an analog multi-qubit block in Qi
 ## Ideas for experimentation
 After you finished your first implementation of DAQC VQE, we encourage you to experiment with the concept and your code. Please find below some ideas:
 * Instead of just a two-body Ising Hamiltonian you can also include three-body terms such as: 
-
+  
   ![Formula](assets/formula.png)
   
   As there are more entangling terms, this Hamiltonian may allow for more entanglement per layer of the ansatz. How does that affect the result, or the number of layers required?
