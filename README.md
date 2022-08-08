@@ -20,7 +20,7 @@ The VQE estimates the minimal eigenvalue $λ_{min}$ of a given (Hermitian) matri
 
 In order to find a good upper boundary, VQE uses a parametrized circuit U with parameters $θ=(p_1,p_2,…)$ (referred to as $U(θ)$). The idea is that the algorithm learns the best parameters to prepare the eigenstate $\ket{ψ(θ)}$ that belongs to the upper bound $λ_θ$. For this an ansatz is chosen. Ansätze (plural for ansatz) describe how sequences of gates are applied to qubits.
 
-This circuit $U$ is then applied to some prepared state $\ket{ψ}$ (can be $\ket{0..0} though). This leaves us with the trial state:
+This circuit $U$ is then applied to some prepared state $\ket{ψ}$ (can be $\ket{0..0}$ though). This leaves us with the trial state:
 
 $$U(θ)|ψ⟩=|ψ(θ)⟩$$
 
