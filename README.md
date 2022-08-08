@@ -66,8 +66,7 @@ The second notebook will show you how to build an analog multi-qubit block in Qi
 
 ## Ideas for experimentation
 After you finished your first implementation of DAQC VQE, we encourage you to experiment with the concept and your code. Please find below some ideas:
-* Instead of just a two-body Ising Hamiltonian you can also include three-body terms such as:
-  $$H_{analog} = \sum_j^N{\overline{g}_{j,j+1}Z_j Z_{j+1}} + \sum_j^N{\overline{g}_{j,j+1,j+2}Z_j Z_{j+1}}Z_{j+2}$$
+* Instead of just a two-body Ising Hamiltonian you can also include three-body terms such as: $H_{analog} = \sum_j^N{\overline{g}_{j,j+1}Z_j Z_{j+1}} + \sum_j^N{\overline{g}_{j,j+1,j+2}Z_j Z_{j+1}}Z_{j+2}$
   As there are more entangling terms, this Hamiltonian may allow for more entanglement per layer of the ansatz. How does that affect the result, or the number of layers required?
 
 * Imagine two different configurations of nearest-neighbors Hamiltonians. One of them is a 1D chain, and the other is a central architecture (star shape). Both have the same number of qubits and connections, but in different configurations. Which one performs better? Any hypothesis why?
