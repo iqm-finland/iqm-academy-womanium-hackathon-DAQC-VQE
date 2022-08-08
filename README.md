@@ -43,7 +43,8 @@ The challenge is to combine both approaches and create a VQE implementation that
 
 Start trying with a nearest-neighbors Ising Hamiltonian on a one-dimensional device (where all N qubits are lined up in a string like so: x—x—x—x):
 
-$$H_{analog}= \sum_j^{N-1}{\overline{g}_{j,j+1}Z_j Z_{j+1}}$$
+![Formula](assets/formula0.png)
+
 
 After this, your new version should be compared to a solely digital approach (one that uses just normal gates). Then you can really spice things up and see how things change. We have some recommendations below.
 
