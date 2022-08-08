@@ -50,19 +50,20 @@ After this, your new version should be compared to a solely digital approach (on
 The project is judged according to the following metrics:
 
 * Technical soundness: You will receive full points in this category if you have a working implementation for a DAQC VQE and if you have it applied to one example use-case (e.g. for a $H^2$ molecule ... (additional problems give extra points)) (40%).
-* Analysis: You will receive full points in this category if you compared the DAQC approach to a solely digital quantum computing approach by answering at least 2 questions. Example questions can be: “How do different Hamiltonians affects the DAQC VQE?” How much faster/slower do we get in different configurations? How does it compare to digital quantum computing?) (20%).
+* Analysis: You will receive full points in this category if you compared the DAQC approach to a solely digital quantum computing approach by answering at least 2 questions. Example questions can be: “How do different Hamiltonians affects the DAQC VQE?” How much more accurate do we get in different configurations? How does it compare to digital quantum computing?) (20%).
 * Explanation: You will receive full points if you are able to communicate your idea and analysis in an understandable way. This can be done via text in the Jupyter notebook, explanations in the code, and by establishing links to existing theory (20%).
-Presentation: Part of the judgement is also how you present your result. The presentation should be engaging and insightful (20%).
+* Presentation: Part of the judgement is also how you present your result. The presentation should be engaging and insightful (20%).
 
 
 ## Jupyter Notebooks
 We prepared/curated two notebooks that will help you grasp the concepts involved in this challenge description.
 The first is an implementation of the Variational Quantum Eigensolver. In this notebook, we will use Qiskit to apply VQE to estimate the ground energy of the H^2 molecule.
 
-[IQM-challenge-variational-quantum-eigensolver.pynb](IQM-challenge-variational-quantum-eigensolver.pynb)
+[IQM-challenge-variational-quantum-eigensolver.pynb](https://github.com/iqm-finland/iqm-academy-womanium-hackathon-DAQC-VQE/blob/main/IQM-challenge-variational-quantum-eigensolver.ipynb)
 
 The second notebook will show you how to build an analog multi-qubit block in Qiskit. This uses the HamiltonianGate class for the analog building blocks.
-[IQM-challenge-DAQC example-qiskit.ipynb](IQM-challenge-variational-quantum-eigensolver.pynb)
+
+[IQM-challenge-DAQC example-qiskit.ipynb](https://github.com/iqm-finland/iqm-academy-womanium-hackathon-DAQC-VQE/blob/main/IQM-challenge-DAQC%20example-qiskit.ipynb)
 
 ## Ideas for experimentation
 After you finished your first implementation of DAQC VQE, we encourage you to experiment with the concept and your code. Please find below some ideas:
