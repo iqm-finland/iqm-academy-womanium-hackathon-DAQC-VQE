@@ -85,6 +85,11 @@ star shape
     x
 ```
 
+## Additional resources
+* Paper "Digital-Analog Quantum Computation"
+by Adrian Parra-Rodriguez, Pavel Lougovski, Lucas Lamata, Enrique Solano, and Mikel Sanz: https://arxiv.org/abs/1812.03637 
+* Paper "Approximating the Quantum Approximate Optimisation Algorithm" by David Headley, Thorge Müller, Ana Martin, Enrique Solano, Mikel Sanz, and Frank K. Wilhelm: https://arxiv.org/abs/2002.12215
+
 ## Additional sources you can check out for different frameworks
 
 * Qiskit example: https://qiskit.org/textbook/ch-applications/vqe-molecules.html
