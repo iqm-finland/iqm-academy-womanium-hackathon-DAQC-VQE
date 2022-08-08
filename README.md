@@ -37,7 +37,7 @@ For quantum chemistry, you can now do the following:
 3. Measure the expectation value of the terms $Z_1$, $Z_1 Z_2$, $X_1 X_2 Y_1 Y_2$ for that trial state. With many measurements of these three quantities, you construct the total expectation value of the molecule's Hamiltonian and keep optimizing it classically.
 
 
-Normally, VQE uses digital quantum gates. However, the multi-qubit gates involved in a VQE ansatz can be switched to analog mutli-qubit blocks.  
+Normally, VQE uses digital quantum gates. However, the multi-qubit gates involved in a VQE ansatz can be switched to analog multi-qubit blocks.  
 
 The challenge is to combine both approaches and create a VQE implementation that uses analog multi-qubit blocks. This is a promising approach to utilize DAQC.
 
