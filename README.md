@@ -93,6 +93,7 @@ star shape
 * Paper "Digital-Analog Quantum Computation"
 by Adrian Parra-Rodriguez, Pavel Lougovski, Lucas Lamata, Enrique Solano, and Mikel Sanz: https://arxiv.org/abs/1812.03637 
 * Paper "Approximating the Quantum Approximate Optimisation Algorithm" by David Headley, Thorge Müller, Ana Martin, Enrique Solano, Mikel Sanz, and Frank K. Wilhelm: https://arxiv.org/abs/2002.12215
+* Overview article about DAQC: https://arxiv.org/abs/2101.08448
 
 ## Additional sources you can check out for different frameworks
 
