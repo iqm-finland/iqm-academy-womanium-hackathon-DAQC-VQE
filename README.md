@@ -18,7 +18,7 @@ VQE is one of the algorithms, where DAQC has the potential to be “more hardwar
 
 The VQE estimates the minimal eigenvalue $λ_{min}$ of a given (Hermitian) matrix $H$ by giving an upper boundary $\lambda_\Theta$ with $\lambda_{min} \leq \lambda_{\Theta}$. The corresponding eigenstate is noted as $\ket{ψ_{min}}$.
 
-In order to find a good upper boundary, VQE uses a parametrized circuit U with parameters $θ=(p_1,p_2,…)$ (referred to as $U(θ)$). The idea is that the algorithm learns the best parameters to prepare the eigenstate $\ket{ψ(θ)}$ that belongs to the upper bound $λ_θ$. For this an ansatz is chosen. Ansätze (plural for ansatz) describe how sequences of gates are applied to qubits.
+In order to find a good upper boundary, VQE uses a parametrized circuit U with parameters $θ=(p_1,p_2,…)$ (referred to as $U(θ)$ ). The idea is that the algorithm learns the best parameters to prepare the eigenstate $\ket{ψ(θ)}$ that belongs to the upper bound $λ_θ$. For this an ansatz is chosen. Ansätze (plural for ansatz) describe how sequences of gates are applied to qubits.
 
 This circuit $U$ is then applied to some prepared state $\ket{ψ}$ (can be $\ket{0..0}$ though). This leaves us with the trial state:
 
@@ -67,7 +67,7 @@ The second notebook will show you how to build an analog multi-qubit block in Qi
 
 ## Ideas for experimentation
 After you finished your first implementation of DAQC VQE, we encourage you to experiment with the concept and your code. Please find below some ideas:
-* Instead of just a two-body Ising Hamiltonian you can also include three-body terms such as: $H_{analog} = \sum_j^{N-1}{\overline{g}_{j,j+1}Z_j Z_{j+1}} + \sum_j^{N-1}{\overline{g}_{j,j+1,j+2}Z_j Z_{j+1}}Z_{j+2}$
+* Instead of just a two-body Ising Hamiltonian you can also include three-body terms such as: $H_{analog}=\sum_j^{N-1}{\overline{g}_{j,j+1}Z_jZ_{j+1}}+\sum_j^{N-2}{\overline{g}_{j,j+1,j+2}Z_jZ_{j+1}}Z_{j+2}$
   As there are more entangling terms, this Hamiltonian may allow for more entanglement per layer of the ansatz. How does that affect the result, or the number of layers required?
 
 * Imagine two different configurations of nearest-neighbors Hamiltonians. One of them is a 1D chain, and the other is a central architecture (star shape). Both have the same number of qubits and connections, but in different configurations. Which one performs better? Any hypothesis why?
